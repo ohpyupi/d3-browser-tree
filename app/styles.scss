@@ -1,0 +1,14 @@
+@import '~bulma';
+
+.node {
+    fill: #DCDCDC;
+    cursor: pointer;
+}
+
+.node.selected {
+    fill: rgb(181, 110, 110);
+}
+
+.root, .fromRoot {
+    visibility: hidden;
+}
